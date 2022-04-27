@@ -20,5 +20,6 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
+  
+//Mengubah posisi dan ukuran widget secara fleksibel dengan posisi relatif. 
 </androidx.constraintlayout.widget.ConstraintLayout>
