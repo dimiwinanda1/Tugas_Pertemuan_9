@@ -1,5 +1,13 @@
+//scriptdibawah ini memiliki arti bahwa dokumen ini dibuat dengan aturan XML versi 1.0.
+//Encoding menunjukkan bahwa file XML ini ditulis dengan kode UTF-8.
 <?xml version="1.0" encoding="utf-8"?>
+
+//ConstraintLayout membuat tata letak yang kompleks dan besar dengan hierarki tampilan datar dan tidak ada kelompok tampilan bertingkat.
 <androidx.constraintlayout.widget.ConstraintLayout
+                                                   
+    //Dengan menggunakan constrait layout kita bisa membuat tampilan aplikasi android yang responsive, kompleks, dan powerfull.
+    //file XML juga mempermudah dalam menyediakan berbagai tata letak untuk orientasi dan ukuran layar yang berbeda. 
+                                                   
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,6 +15,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    //Menampilkan set data dalam jumlah besar dalam UI sambil meminimalkan penggunaan memori
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
