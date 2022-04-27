@@ -1,4 +1,9 @@
+//memberi arti bahwa dokumen ini dibuat dengan aturan XML versi 1.0. 
+//Encoding menunjukkan bahwa file XML ini ditulis dengan kode UTF-8.
 <?xml version="1.0" encoding="utf-8"?>
+
+//LinearLayout adalah kelompok tampilan yang menyejajarkan semua turunan dalam satu arah, baik vertikal maupun horizontal.
+//pada linearlayout juga diatur untuk lebar tinggi dan juga jarak tampilan.
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -6,6 +11,7 @@
     android:layout_margin="8dp"
     android:background="#8EAF9E">
 
+    //Textview merupakan widget yang berfungsi untuk menampilkan dan mengatur text pada tampilan, baik itu tinggi, lebar, jarak, warna, ukuran dan preposisinya. 
     <TextView
         android:id="@+id/itemTextView"
         android:layout_width="match_parent"
